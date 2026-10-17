@@ -1,0 +1,11 @@
+# 生成物（python3 init_db.py で再作成できる）
+data/*.db
+data/*.db-journal
+
+# 取得した生データ（収集後に方針を決めるまでコミットしない）
+data/raw/
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
